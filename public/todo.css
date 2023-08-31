@@ -1,0 +1,50 @@
+*body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(12, 11, 13) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border:2px solid red;
+}
+.todo-wrapper{
+padding: 10px;
+}
+.todo-wrapper .input-field{
+    padding: 2px;
+    margin: 10px auto 20px auto ;
+    background-color: black;
+    color:bisque;
+} 
+.todo-wrapper .input-field button{
+    border: none;
+    outline: none;
+    padding: 1px;
+    background-color: rgb(123, 4, 111);
+}
+.task-item{
+    padding: 2px;
+    margin: 10px auto 10px auto ;
+    background-color: black;
+    color:bisque;
+}
+.task-item button{
+    border: none;
+    outline: none;
+    padding: 1px;
+    background-color: rgb(123, 4, 111); 
+}
+.edit-forum{
+    padding: 2px;
+    margin: 10px auto 10px auto ;
+    background-color: black;
+    color:bisque;
+}
+.edit-forum button{
+    border: none;
+    outline: none;
+    padding: 1px;
+    background-color: rgb(123, 4, 111); 
+}
